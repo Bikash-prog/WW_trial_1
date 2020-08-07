@@ -1,0 +1,168 @@
+/* Styling of title part */
+#title{
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  background-image: url('https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png');
+  background-size: cover;
+  resize: both;
+}
+/* navBrand text size */
+a.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0;
+}
+/* navBrand and navItems text Styles */
+.navbar-toggler-icon{
+  background-color: linear-gradient(#EC59B6, #5121B1);
+  border-radius: 20%;
+}
+.navbar{
+  font-family: "montserrat",sans-serif;
+  background: -webkit-linear-gradient(#EC59B6, #5121B1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   position:relative;/*stick/fixed */
+ width: 100%;/*to take the width of screen*/
+ transition: 0 0.3s;
+}
+/* the page initialize image in title part */
+img.BHUgate{
+  border-radius: 100%;
+  height:80%;
+  width:60% ;
+  margin-top: 3%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* the starting text below the title image */
+.p1{
+  color: #ffffff;
+  font-family: "montserrat",sans-serif;
+  text-align: center;
+  font-size:1.5rem;
+  position: relative;
+  padding-bottom: 2rem;
+  top: 50%;
+  margin: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* styling of about part */
+/* about padding to maaintain a gap between sections */
+#about{
+  padding: 40px 10px 20px 20px;
+  background-color: #ffffff;
+}
+/* the paragraph and heading text in about section */
+.about_text{
+  display: block;
+  text-align:center;
+  font-size: 1.2rem;
+  font-family: "Red Rose", cursive;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/* dotted horizontal line */
+.hr1{
+  width: 5%;
+    border-top: dotted black 6px;
+    border-bottom: none;
+    border-left: none;
+    background-color: #ffffff;
+    margin: 20px auto;
+}
+
+/* style of images in about section (carousel) */
+.about-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 8rem;
+  width: 8rem;
+  margin-bottom: 5%;
+}
+/* carousel button style */
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  background-color: #a6dcef;
+border-radius: 100%;
+}
+/* style of home-students section */
+#home-students{
+  background-color:#250250;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  max-height: 980px;
+}
+
+}
+/* the upper and lower div in the #home-students section */
+.home-students-div{
+  max-height: 140px;
+}
+/* top left cloud */
+.clouds1{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: -28px;
+  top: -85px;
+  transform: rotate(20deg);
+}
+/* bottom left cloud */
+.clouds2{
+  width: 200px;
+  height: 200px;
+  position: relative;
+      right: -10px;
+      bottom: 0;
+}
+/* div containing profile and experiences of students */
+.students-row{
+  width: 60%;
+  padding-bottom: 30%;
+margin: 0px auto 0px auto;
+line-height: 2;
+}
+/* first student profile */
+.students-profile1{
+max-width: 25%;
+max-height: 25%;
+float: left;
+margin-right: 20px;
+}
+/* second student profile */
+.students-profile2{
+  max-width: 25%;
+  max-height: 25%;
+  float: right;
+  margin-left: 20px;
+}
+/* first student paragraph */
+.home-p1{
+  display:block;
+  color: #ffffff;
+  text-align: left;
+  margin-left: 35%;
+}
+/* second student paragraph */
+.home-p2{
+  display:block;
+  color: #ffffff;
+  max-height: 25%;
+  margin-right: 35%;
+  text-align: left;
+}
+/* footer part */
+#footer{
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+
+}
+.social-icon{
+  margin: 5px;
+}
