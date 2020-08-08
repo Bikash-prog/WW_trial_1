@@ -1,32 +1,35 @@
-/* <!DOCTYPE html>
-<html>
-<head>
-   <title>Campus part of project - DivS</title>
-<style type="text/css"> */
-.Campusheading{ font-size:35px;
+
+.Campusheading{ font-size:1.5rem;
                 font-weight:bold;
-                font-style:normal;
-                font-family:"Times New Roman", Times , Serif;
+                font-family:"Red Rose", cursive, Serif;
                 text-align:center;
-                opacity:0.7;
+                color: black;
                 margin-top: 5px;
                 }
 .campuspara{ text-align:center;
-            font-family:"Times New Roman", Times , Serif;
-            font-size: 2.5rem;
+            font-family:"Red Rose","Red Rose", cursive, Serif;
+            font-size: 1.2rem;
             padding-left: 10%;
             padding-right: 10%;
             display: block;
             margin-left: auto;
             margin-right: auto;
             }
+.title-img{
+  border-radius: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 #campus-students{
 background-color:#250250;
-border-top-right-radius: 10%;
-border-bottom-left-radius: 10%;
+border-top-right-radius: 15%;
+border-bottom-left-radius: 15%;
 max-height: 7000px;
 }
 
+em{
+  text-align:center;
+  font-family:"Red Rose","Red Rose", cursive, Serif;
 }
 /* the upper and lower div in the #campus-places section */
 .campus-students-div{
@@ -59,64 +62,58 @@ line-height: 2;
 /* first campus place */
 .VT{
 width: 125px;
-height: 125px;
-float: left;
+height: 20px;
 margin-right: 0px;
 position:relative;
-right:50px;
+
 }
 /* second campus place */
 .academics{
   max-width: 125px;
-  max-height: 125px;
-  float: right;
+  max-height: 20px;
   margin-left: 0px;
   position:relative;
-  left:50px;
 }
 /* third campus place */
 .Gymkhana{
 width: 125px;
-height: 125px;
-float: left;
+height: 20px;
 margin-right: 0px;
 position:relative;
-right:50px;
 }
 /* fourth campus place */
 .Limbdicorner{
   max-width: 125px;
-  max-height: 125px;
-  float: right;
+  max-height: 20px;
   margin-left: 0px;
   position:relative;
-  left:50px;
 }
 /* fifth campus place */
 .Hostels{
 width: 125px;
-height: 125px;
-float: left;
+height: 20px;
 margin-right: 0px;
 position:relative;
-right:50px;
 }
 /* sixth campus place */
 .Agriculturalfield{
   max-width: 125px;
-  max-height: 125px;
-  float: right;
+  max-height: 20px;
   margin-left: 0px;
   position:relative;
-  left:50px;
+}
+
+
+#campus-students{
+  margin-top: 40px;
 }
 /* first place paragraph */
 .campus-p1{
-  font-size: 2rem;
+  font-size: 1.2rem;
   display:block;
   color: #ffffff;
   text-align: left;
-  max-height: 25%;
+  max-height: 20%;
   margin-left: 0;
   position:relative;
   right:30px;
@@ -124,10 +121,10 @@ right:50px;
 }
 /* second place paragraph */
 .campus-p2{
-  font-size: 2rem;
+  font-size: 1.2rem;
   display:block;
   color: #ffffff;
-  max-height: 25%;
+  max-height: 20%;
   margin: 0;
   text-align: right;
   position:relative;
@@ -136,11 +133,11 @@ right:50px;
 }
 /* third place paragraph */
 .campus-p3{
-  font-size: 2rem;
+  font-size: 1.2rem;
   display:block;
   color: #ffffff;
   text-align: left;
-  max-height: 25%;
+  max-height: 20%;
   margin-left: 0;
   position:relative;
   right:30px;
@@ -148,10 +145,10 @@ right:50px;
 }
 /* fourth place paragraph */
 .campus-p4{
-  font-size: 2rem;
+  font-size: 1.2rem;
   display:block;
   color: #ffffff;
-  max-height: 25%;
+  max-height: 20%;
   margin: 0;
   text-align: right;
   position:relative;
@@ -160,11 +157,11 @@ right:50px;
 }
 /* fifth place paragraph */
 .campus-p5{
-  font-size: 2rem;
+  font-size: 1.2rem;
   display:block;
   color: #ffffff;
   text-align: left;
-  max-height: 25%;
+  max-height: 20%;
   margin-left: 0;
   position:relative;
   right:30px;
@@ -172,10 +169,10 @@ right:50px;
 }
 /* sixth place paragraph */
 .campus-p6{
-  font-size: 2rem;
+  font-size: 1.2rem;
   display:block;
   color: #ffffff;
-  max-height: 25%;
+  max-height: 20%;
   margin: 0;
   text-align: right;
   position:relative;
@@ -192,6 +189,7 @@ right:50px;
 .social-icon{
   margin: 5px;
 }
+
 #more {display: none;}
 #more1 {display: none;}
 #more2 {display: none;}
@@ -206,229 +204,63 @@ right:50px;
 }
 
 .carousel-item{
-  font-size: 2.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 .carousel-control-prev-icon,.carousel-control-next-icon{
   background-color: #a6dcef;
 border-radius: 100%;
-height: 40px;
-width: 40px;
-
 }
-/* </style>
-</head>
-<body>
-<img src="Proj-Sept-Campus1.jpg" width="358px" height="200px" class="firstphoto">
-<div class="Campusheading">CAMPUS</div>
-<p class="campuspara"> Campus is a home far from home for all of us. The first thing which welcomes you in a college is its campus . So its very important for all of you joining this institution to know about its vibrant campus</p>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="Proj-Sept-Campus1.jpg" alt="Academic building" width="358px" height="200px">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="Proj-Sept-Campus3.jpg" alt="Vishwanath Temple" width="358px" height="200px">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="Proj-Sept-Campus4.jpg" alt="Gymkhana" width="358px" height="200px">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="Proj-Sept-Campus4.jpg" alt="Limbdi Corner" width="358px" height="200px">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="Proj-Sept-Campus3.jpg" alt="Hostels" width="358px" height="200px">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="Proj-Sept-Campus1.jpg" alt="Agricultural Feild" width="358px" height="200px">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<section id="campus-students">
-  <div class="campus-students-div">
-    <!-- cloud gif is here -->
-    <img class="clouds1" src="https://media.giphy.com/media/Qrdep630dyOucGsEsB/giphy.gif" alt="">
-  </div>
-  <div class="campus-talk">
-    <!-- campus place and its description -->
-    <div class="campus-row">
-      <img class="VT" src="Proj-Sept-Campus3.jpg" alt="profile-img">
-      <p class="campus-p1">Lorem ipsum dolor sit amet, eligendi necessitatibus ut mel, ne
-        vocibus inimicus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
 
-<button onclick="myFunction()" id="myBtn">Read more</button>
-    </div>
-  </div><hr>
-  <div class="campus-talk">
-      <!-- campus place and its description -->
-    <div class="campus-row" style="padding-bottom: 0px;">
-      <img class="academics" src="Proj-Sept-Campus4.jpg" alt="academics-img" >
-      <p class="campus-p2">Lorem ipsum dolor sit amet, eligendi necessitatibus ut mel, ne
-        vocibus inimicus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-
-<button onclick="myFunction1()" id="myBtn1">Read more</button>
-    </div>
-  </div><hr>
-  <div class="campus-talk">
-    <!-- campus place and its description -->
-    <div class="campus-row">
-      <img class="Gymkhana" src="Proj-Sept-Campus3.jpg" alt="profile-img">
-      <p class="campus-p3">Lorem ipsum dolor sit amet, eligendi necessitatibus ut mel, ne
-        vocibus inimicus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-
-<button onclick="myFunction2()" id="myBtn2">Read more</button>
-    </div>
-  </div><hr>
-  <div class="campus-talk">
-      <!-- campus place and its description -->
-    <div class="campus-row" style="padding-bottom: 0px;">
-      <img class="Limbdicorner" src="Proj-Sept-Campus4.jpg" alt="profile-img" >
-      <p class="campus-p4">Lorem ipsum dolor sit amet, eligendi necessitatibus ut mel, ne
-        vocibus inimicus .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more3">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-
-<button onclick="myFunction3()" id="myBtn3">Read more</button>
-    </div>
-  </div><hr>
-  <div class="campus-talk">
-    <!-- campus place and its description -->
-    <div class="campus-row">
-      <img class="Hostels" src="Proj-Sept-Campus3.jpg" alt="profile-img">
-      <p class="campus-p5">Lorem ipsum dolor sit amet, eligendi necessitatibus ut mel, ne
-        vocibus inimicus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more4">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-
-<button onclick="myFunction4()" id="myBtn4">Read more</button>
-    </div>
-  </div><hr>
-  <div class="campus-talk">
-      <!-- campus place and its description -->
-    <div class="campus-row" style="padding-bottom: 0px;">
-      <img class="Agriculturalfield" src="Proj-Sept-Campus4.jpg" alt="profile-img" >
-      <p class="campus-p6">Lorem ipsum dolor sit amet, eligendi necessitatibus ut mel, ne
-        vocibus inimicus . Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more5">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-
-<button onclick="myFunction5()" id="myBtn5">Read more</button>
-    </div>
-  </div>
-  <div class="home-students-div">
-    <!-- cloud gif is here -->
-    <img class="clouds2" src="https://media.giphy.com/media/Qrdep630dyOucGsEsB/giphy.gif" alt="">
-  </div>
-</section> */
-/* <script type="text/javascript">
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
+/* Styling of title part */
+#title{
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  background-image: url('https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png');
+  background-size: cover;
+  resize: both;
 }
-function myFunction1() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more1");
-  var btnText = document.getElementById("myBtn1");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
+/* navBrand text size */
+a.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0;
 }
-function myFunction2() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more2");
-  var btnText = document.getElementById("myBtn2");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
+/* navBrand and navItems text Styles */
+.navbar-toggler-icon{
+  background-color: linear-gradient(#EC59B6, #5121B1);
+  border-radius: 20%;
 }
-function myFunction3() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more3");
-  var btnText = document.getElementById("myBtn3");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
+.navbar{
+  font-family: "montserrat",sans-serif;
+  background: -webkit-linear-gradient(#EC59B6, #5121B1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   position:relative;/*stick/fixed */
+ width: 100%;/*to take the width of screen*/
+ transition: 0 0.3s;
 }
-function myFunction4() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more4");
-  var btnText = document.getElementById("myBtn4");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
+/* the page initialize image in title part */
+.Campus-profile{
+  /* border-radius: 100%; */
+  height:13rem;
+  width: 13rem;
+  margin-top: 3%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
-function myFunction5() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more5");
-  var btnText = document.getElementById("myBtn5");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
+/* the starting text below the title image */
+.p1{
+  color: #ffffff;
+  font-family: "montserrat",sans-serif;
+  text-align: center;
+  font-size:1.5rem;
+  position: relative;
+  padding-bottom: 2rem;
+  top: 50%;
+  margin: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-</script> */
-/* </body>
-<!-- footer part: contacts and copyright -->
-<footer id="footer">
-  <i class="social-icon fab fa-facebook"></i>
-  <i class="social-icon fab fa-twitter"></i>
-  <i class="social-icon fab fa-instagram"></i>
-  <p>© Copyright 2020 pointXYZ</p>
 
-</footer>
-</html> */
