@@ -61,14 +61,14 @@ img.BHUgate{
   display: block;
   text-align:center;
   font-size: 1.2rem;
-  font-family: "Red Rose", cursive;
+  font-family: "Red Rose", cursive,serif;
   margin-left: auto;
   margin-right: auto;
 
 }
 /* dotted horizontal line */
 .hr1{
-  width: 5%;
+    width: 5%;
     border-top: dotted black 6px;
     border-bottom: none;
     border-left: none;
@@ -93,8 +93,7 @@ border-radius: 100%;
 /* style of home-students section */
 #home-students{
   background-color:#250250;
-  border-top-right-radius: 20%;
-  border-bottom-left-radius: 20%;
+  border-radius: 10%;
   max-height: 980px;
 }
 
@@ -108,53 +107,63 @@ border-radius: 100%;
   width: 200px;
   height: 200px;
   position: relative;
-  left: -28px;
-  top: -85px;
-  transform: rotate(20deg);
+  left: 30px;
+  top: 0px;
 }
 /* bottom left cloud */
 .clouds2{
   width: 200px;
   height: 200px;
   position: relative;
-      right: -10px;
-      bottom: 0;
+      right: -70px;
+      bottom:5rem;
 }
 /* div containing profile and experiences of students */
 .students-row{
   width: 60%;
-  padding-bottom: 30%;
 margin: 0px auto 0px auto;
 line-height: 2;
 }
 /* first student profile */
 .students-profile1{
+display: block;
+margin-left: auto;
+margin-right: auto;
 max-width: 25%;
 max-height: 25%;
-float: left;
-margin-right: 20px;
+margin-bottom: 20px;
 }
 /* second student profile */
 .students-profile2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 25%;
   max-height: 25%;
-  float: right;
-  margin-left: 20px;
+  margin-bottom: 20px;
 }
 /* first student paragraph */
 .home-p1{
   display:block;
   color: #ffffff;
-  text-align: left;
-  margin-left: 35%;
+  text-align: center;
+  margin-bottom:2rem;
 }
 /* second student paragraph */
 .home-p2{
   display:block;
   color: #ffffff;
   max-height: 25%;
-  margin-right: 35%;
-  text-align: left;
+  text-align: center;
+}
+/* horizontal line after profile1 and p1 */
+.hr2{
+    width: 5%;
+    border-top: dotted #fdfdfd 6px;
+    border-bottom: none;
+    border-left: none;
+    background-color: #250250;
+    margin: 40px auto;
 }
 /* footer part */
 #footer{
@@ -166,3 +175,4 @@ margin-right: 20px;
 .social-icon{
   margin: 5px;
 }
+
