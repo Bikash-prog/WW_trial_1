@@ -1,0 +1,94 @@
+h1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
+}
+p{
+font-family: 'Josefin Sans', sans-serif;
+}
+img{
+  width: 90%;
+  border-radius: 100%;
+}
+
+/* title and navbar */
+#title{
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  background-image: url('https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png');
+  background-size: cover;
+  resize: both;
+  color: white;
+}
+/* navBrand text size */
+a.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0;
+
+}
+/* navBrand and navItems text Styles */
+.navbar-toggler-icon{
+    background-color: linear-gradient(#EC59B6, #5121B1);
+  border-radius: 20%;
+
+}
+.navbar{
+  font-family: "montserrat",sans-serif;
+  background: -webkit-linear-gradient(#EC59B6, #5121B1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   position:relative;/*stick/fixed */
+ width: 100%;/*to take the width of screen*/
+ transition: 0 0.3s;
+ 
+}
+img.BHUgate{
+  border-radius: 100%;
+  height:80%;
+  width:60% ;
+  margin-top: 3%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.p1{
+  color: #ffffff;
+  font-family: "montserrat",sans-serif;
+  text-align: center;
+  font-size:1.5rem;
+  position: relative;
+  padding-bottom: 2rem;
+  top: 50%;
+  margin: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* introduction */
+.intro-text{
+  padding: 0 40px;
+  margin: 20px 0 0;
+  text-align: center;
+  font-weight: bold;
+}
+#logos{
+  text-align: center;
+  padding: 3% 22% ;
+  background-color:#250250;
+  margin: 5px;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.1rem;
+}
+.ssc,.gsc,.fmc,.cult,.sntc{
+  text-align: center;
+  padding: 8% 3%;
+  background-color: #f4eeff;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 6px 12px #bbe1fa;
+  }
+
+/* footer */
+#footer{
+  text-align:center;
+}
