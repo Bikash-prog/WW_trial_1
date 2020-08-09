@@ -33,7 +33,7 @@ a.navbar-brand{
 
 }
 .navbar{
-  font-family: "montserrat",sans-serif;
+  font-family: "montserrat",sans-serif ;
   background: -webkit-linear-gradient(#EC59B6, #5121B1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
