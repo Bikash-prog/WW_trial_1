@@ -19,12 +19,17 @@
   border-radius: 20%;
   margin-top: 15px;
   margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #campus-students{
 background-color:#250250;
-border-top-right-radius: 15%;
-border-bottom-left-radius: 15%;
+border-radius: 10px;
+margin-left: 1%;
+margin-right: 1%;
 max-height: 7000px;
+margin-top: 40px;
 }
 
 em{
@@ -40,8 +45,8 @@ em{
   width: 200px;
   height: 200px;
   position: relative;
-  left: -28px;
-  top: -85px;
+  left: 32px;
+  top: -45px;
   transform: rotate(20deg);
 }
 /* bottom left cloud */
@@ -49,142 +54,93 @@ em{
   width: 200px;
   height: 200px;
   position: relative;
-      right: -10px;
+      right: -55px;
       bottom: 0;
 }
 /* div containing campus places of iit bhu */
 .campus-row{
   width: 60%;
-  padding-bottom: 30%;
+  padding-bottom: 8%;
 margin: 0px auto 0px auto;
 line-height: 2;
 }
 /* first campus place */
 .VT{
 width: 125px;
-height: 20px;
+height: 100px;
 margin-right: 0px;
-position:relative;
-
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 /* second campus place */
 .academics{
   max-width: 125px;
-  max-height: 20px;
+  max-height: 140px;
   margin-left: 0px;
-  position:relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* third campus place */
 .Gymkhana{
 width: 125px;
-height: 20px;
+height: 115px;
 margin-right: 0px;
-position:relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 /* fourth campus place */
 .Limbdicorner{
   max-width: 125px;
-  max-height: 20px;
+  max-height: 115px;
   margin-left: 0px;
-  position:relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* fifth campus place */
 .Hostels{
 width: 125px;
-height: 20px;
+height: 100px;
 margin-right: 0px;
-position:relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 /* sixth campus place */
 .Agriculturalfield{
   max-width: 125px;
-  max-height: 20px;
+  max-height: 115px;
   margin-left: 0px;
-  position:relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* place paragraphs together */
+.campus-p1,.campus-p2,.campus-p3,.campus-p4,.campus-p5,.campus-p6{
+  font-size: 1.2rem;
+  display:block;
+  color: #ffffff;
+  text-align: center;
+  max-height: 20%;
+  margin-left: 0;
 
-#campus-students{
-  margin-top: 40px;
 }
-/* first place paragraph */
-.campus-p1{
-  font-size: 1.2rem;
-  display:block;
-  color: #ffffff;
-  text-align: left;
-  max-height: 20%;
-  margin-left: 0;
-  position:relative;
-  right:30px;
-  padding:0;
+.myBtn{
+  position: relative;
+  left: 6rem;
+  border-radius: 15px;
 }
-/* second place paragraph */
-.campus-p2{
-  font-size: 1.2rem;
-  display:block;
-  color: #ffffff;
-  max-height: 20%;
-  margin: 0;
-  text-align: right;
-  position:relative;
-  left:30px;
-  padding:0;
-}
-/* third place paragraph */
-.campus-p3{
-  font-size: 1.2rem;
-  display:block;
-  color: #ffffff;
-  text-align: left;
-  max-height: 20%;
-  margin-left: 0;
-  position:relative;
-  right:30px;
-  padding:0;
-}
-/* fourth place paragraph */
-.campus-p4{
-  font-size: 1.2rem;
-  display:block;
-  color: #ffffff;
-  max-height: 20%;
-  margin: 0;
-  text-align: right;
-  position:relative;
-  left:30px;
-  padding:0;
-}
-/* fifth place paragraph */
-.campus-p5{
-  font-size: 1.2rem;
-  display:block;
-  color: #ffffff;
-  text-align: left;
-  max-height: 20%;
-  margin-left: 0;
-  position:relative;
-  right:30px;
-  padding:0;
-}
-/* sixth place paragraph */
-.campus-p6{
-  font-size: 1.2rem;
-  display:block;
-  color: #ffffff;
-  max-height: 20%;
-  margin: 0;
-  text-align: right;
-  position:relative;
-  left:30px;
-  padding:0;
-}
+
 /* footer part */
 #footer{
   padding-top: 1.5rem;
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
   font-size: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .social-icon{
   margin: 5px;
@@ -197,11 +153,6 @@ position:relative;
 #more4 {display: none;}
 #more5 {display: none;}
 
-.title-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .carousel-item{
   font-size: 1rem;
@@ -263,4 +214,3 @@ a.navbar-brand{
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
