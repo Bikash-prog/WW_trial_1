@@ -27,11 +27,6 @@ a.navbar-brand{
 
 }
 /* navBrand and navItems text Styles */
-.navbar-toggler-icon{
-    background-color: linear-gradient(#EC59B6, #5121B1);
-  border-radius: 20%;
-
-}
 .navbar{
   font-family: "montserrat",sans-serif ;
   background: -webkit-linear-gradient(#EC59B6, #5121B1);
