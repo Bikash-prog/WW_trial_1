@@ -129,7 +129,7 @@ margin-right: auto;
   margin-left: 0;
 
 }
-.myBtn,.myBtn1,.myBtn2,.myBtn3,.myBtn4,.myBtn5{
+#myBtn,#myBtn1,#myBtn2,#myBtn3,#myBtn4,#myBtn5{
   position: relative;
   left: 6rem;
   border-radius: 15px;
