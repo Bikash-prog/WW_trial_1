@@ -131,7 +131,8 @@ margin-right: auto;
 
 }
 #myBtn,#myBtn1,#myBtn2,#myBtn3,#myBtn4,#myBtn5{
-  float: right;
+  display: grid;
+  margin: auto;
   border-radius: 15px;
 }
 
@@ -216,4 +217,12 @@ a.navbar-brand{
 }
 .carousel-images{
   width: 75%;
+}
+.carousel-hr{
+  width: 20%;
+  border-top: dotted black 6px;
+  border-bottom: none;
+  border-left: none;
+  background-color: #ffffff;
+  margin: 20px auto;
 }
