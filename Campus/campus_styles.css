@@ -214,3 +214,6 @@ a.navbar-brand{
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.carousel-images{
+  width: 75%;
+}
