@@ -59,10 +59,10 @@ em{
 }
 /* div containing campus places of iit bhu */
 .campus-row{
-  width: 60%;
+  width: 78%;
   padding-bottom: 8%;
-margin: 0px auto 0px auto;
-line-height: 2;
+margin: 0px 11% 0px 11%;
+
 }
 /* first campus place */
 .VT{
@@ -122,6 +122,7 @@ margin-right: auto;
 /* place paragraphs together */
 .campus-p1,.campus-p2,.campus-p3,.campus-p4,.campus-p5,.campus-p6{
   font-size: 1.2rem;
+  line-height: 2;
   display:block;
   color: #ffffff;
   text-align: center;
@@ -130,8 +131,7 @@ margin-right: auto;
 
 }
 #myBtn,#myBtn1,#myBtn2,#myBtn3,#myBtn4,#myBtn5{
-  position: relative;
-  left: 6rem;
+  float: right;
   border-radius: 15px;
 }
 
