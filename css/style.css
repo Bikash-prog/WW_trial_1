@@ -64,7 +64,7 @@ img.BHUgate{
 }
 /* dotted horizontal line */
 .hr1{
-    width: 5%;
+    width: 20%;
     border-top: dotted black 6px;
     border-bottom: none;
     border-left: none;
