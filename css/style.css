@@ -72,31 +72,37 @@ img.BHUgate{
     margin: 20px auto;
 }
 
-/* style of images in about section (carousel) */
-.about-img{
+/* some images of places */
+.places-img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 14rem;
   width: 14rem;
   margin-bottom: 5%;
-  margin-top: 5%;
   border-radius: 50%;
 }
-/* carousel button style */
-.carousel-control-prev-icon,.carousel-control-next-icon{
-  background-color: #a6dcef;
-border-radius: 100%;
+.places_text{
+  color: white;
+  display: block;
+  text-align:center;
+  font-size: 1rem;
+  font-family: "Red Rose", cursive,serif;
+  margin-left: 15%;
+  margin-right: 15%;
+
+
 }
 /* style of home-students section */
-#home-students{
+#home-places{
   background-color:#250250;
   border-radius: 10px;
-  max-height: 980px;
+
   margin-left: 1%;
   margin-right: 1%;
 }
-
+#home-places .row .col-lg-4{
+  margin-top: 0;
 }
 /* the upper and lower div in the #home-students section */
 .home-students-div{
@@ -106,17 +112,17 @@ border-radius: 100%;
 .clouds1{
   width: 200px;
   height: 200px;
-  position: relative;
-  left: 30px;
-  top: 0px;
+  position:relative;
+  right:-40%;
+  top: -20px;
 }
 /* bottom left cloud */
 .clouds2{
   width: 200px;
   height: 200px;
-  position: relative;
-      right: -70px;
-      bottom:5rem;
+  position:relative;
+  right: 0%;
+  bottom: 20px;
 }
 /* containing Testimonials of students */
 .Testimonials h1{
@@ -129,22 +135,20 @@ border-radius: 100%;
   font-family: "montserrat",sans-serif;
 }
 .intro-Testimonials{
-  color: #ffffff;
+  color: black;
   text-align: center;
   font-family:"Red rose", sans-serif;
 }
 .Testimonials .row{
   margin-top: 40px;
 }
-.col-lg-4{
+.carousel-item .col-lg-4{
   margin: 40px auto;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 .col-lg-4 .profile{
    padding: 70px 15px 15px;
    background-color: #d8d3cd;
-   box-shadow: 0px 0px 4px 4px #cffffe;
+   box-shadow: 0px 0px 4px 4px #99d8d0;
    border-radius: 20px 20px 20px 20px;
   text-align: center;
   font-size: 1rem;
@@ -191,7 +195,13 @@ blockquote::after{
 .carousel-item{
   padding-top: 50px;
   padding:8% 0%;
-
+  scroll-behavior: smooth;
+}
+#carouselExampleIndicators .carousel-indicators .below-indicators.active{
+  background-color: #ff9800;
+}
+#carouselExampleIndicators .carousel-indicators .below-indicators{
+  background-color: #d8d3cd;
 }
 .prev-indicators{
   padding-right : 15px;
@@ -199,9 +209,7 @@ blockquote::after{
 .next-indicators{
   padding-left: 15px;
 }
-.control-icons{
-  background-color: #d8d3cd;
-}
+
 /* first student paragraph */
 .home-p1{
   display:block;
